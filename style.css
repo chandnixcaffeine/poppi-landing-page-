@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Brams;
+    src: url(Brams-K7DWW.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(https://i.pinimg.com/564x/a8/30/7f/a8307f752b7d9c28396a6441db1287b8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#navbar #logo{
+    color: #EC008C;
+    height: 27px;
+}
+#nav1{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+}
+#nav2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+#nav2 i{
+    color: #EC008C;
+    font-size: 25px;
+}
+#nav1 h5{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: #EC008C;
+    color: white;
+    outline: none;
+    padding: 10px 27px;
+    text-transform: uppercase;
+    border: 1px solid #f6b4ca;
+    border-radius: 15px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+#nav2 i:hover{
+    color: black;
+}
+#part{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#part1{
+    width: 27%;
+}
+#part2{
+    width: 45%;
+}
+#part2 h1{
+    font-size: 50px;
+    font-family: Brams;
+    font-weight:700;
+    text-align: center;
+    align-items: center;
+    color: #EC008C;
+    margin-top: 3%;
+}
+#part2 img{
+    width: 80%;
+    margin-left: 1%;
+}
+#part2 h3{
+    font-size: 33px;
+    color: #EC008C;
+    margin-top: 3%;
+    font-family: Brams;
+    font-weight:700;
+    margin-bottom: 4%;
+}
+#part3{
+    width: 27%;
+}
+#part3 #logos{
+    margin-top: 140%;
+    margin-left: 71.90%;
+}
+#part3 #logos i{
+    color: #EC008C;
+    font-size: 25px;
+    margin-right: 10px;
+}
+#part3 #logos i:hover{
+    color:  black;
+}
+
